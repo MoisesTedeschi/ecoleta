@@ -1,16 +1,59 @@
 import express from 'express';
+import knex from './database/connections';
 
 
 const routes = express.Router();
 
-routes.get('/', (request, response) => {
+routes.get('/itens', async (request, response) => {
     //console.log('Listagem de Usuários');
     // Quem determina o nome do parâmetro é quem faz a requisição ("search").
     //const search = String(request.query.search);
     //const filteredUsers = search ? users.filter(user => user.includes(search)) : users;
 
     // JSON retornado
-    return response.json({ message: "Hello, World!" });
+
+    const itens = await knex('itens').select('*'); // Mesma coisa que: SELECT * FROM itens
+
+    const serializedItens = itens.map(item => {
+        //O map vai percorrer todos os itens recebidos do BD
+        //e posso modificar como quiser.
+        return {
+            title: item.title,
+            image_url: `http://localhost:3333/uploads/${item.image}`,
+        };
+    });
+
+    return response.json(serializedItens);
+});
+
+//Criando um ponto de coleta
+routes.post('/points', async (request, response) => {
+    const {
+        name,
+        email,
+        whatsapp,
+        latitude,
+        longitude,
+        number,
+        city,
+        uf,
+        point_reference,
+        itens
+    } = request.body;
+
+    await knex('points').insert({
+        image: 'image-fake',
+        name,
+        email,
+        whatsapp,
+        latitude,
+        longitude,
+        number,
+        city,
+        uf,
+        point_reference
+    });
+    return response.json({ success: true });
 });
 
 export default routes;

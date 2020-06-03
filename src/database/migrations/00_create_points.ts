@@ -15,6 +15,8 @@ export async function up(knex: Knex) {
         table.string('number').notNullable();
         table.string('city').notNullable();
         table.string('uf', 2).notNullable();
+        table.string('point_reference');
+
     });
 }
 
