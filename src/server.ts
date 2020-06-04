@@ -1,6 +1,7 @@
 import express, { response } from 'express';
 import path from 'path';
 import routes from './routes';
+import cors from 'cors';
 
 
 // Rota: Endereço completo da requisição.
@@ -27,6 +28,12 @@ import routes from './routes';
 
 // Request Body: Parâmetros para criação e atualização de informações.
 const app = express();
+
+//app.use(cors({
+//    origin: 'http://www.meusite.com.br'
+//}));
+
+app.use(cors());
 
 app.use(express.json());
 app.use(routes);
