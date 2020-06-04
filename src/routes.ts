@@ -18,6 +18,7 @@ routes.get('/itens', async (request, response) => {
         //O map vai percorrer todos os itens recebidos do BD
         //e posso modificar como quiser.
         return {
+            id: item.id,
             title: item.title,
             image_url: `http://localhost:3333/uploads/${item.image}`,
         };
@@ -41,7 +42,9 @@ routes.post('/points', async (request, response) => {
         itens
     } = request.body;
 
-    await knex('points').insert({
+    const trx = await knex.transaction();
+
+    const insertedIds = await trx('points').insert({
         image: 'image-fake',
         name,
         email,
@@ -53,6 +56,18 @@ routes.post('/points', async (request, response) => {
         uf,
         point_reference
     });
+
+    const point_id = insertedIds[0];
+
+    const pointItens = itens.map((item_id: number) => {
+        return {
+            item_id,
+            point_id,
+        }
+    });
+
+    await trx('point_itens').insert(pointItens);
+
     return response.json({ success: true });
 });
 
