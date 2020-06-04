@@ -1,8 +1,10 @@
 import express from 'express';
 import knex from './database/connections';
 
+import PointsController from './controllers/PointsController';
 
 const routes = express.Router();
+const pointsController = new PointsController();
 
 routes.get('/itens', async (request, response) => {
     //console.log('Listagem de Usuários');
@@ -28,47 +30,6 @@ routes.get('/itens', async (request, response) => {
 });
 
 //Criando um ponto de coleta
-routes.post('/points', async (request, response) => {
-    const {
-        name,
-        email,
-        whatsapp,
-        latitude,
-        longitude,
-        number,
-        city,
-        uf,
-        point_reference,
-        itens
-    } = request.body;
-
-    const trx = await knex.transaction();
-
-    const insertedIds = await trx('points').insert({
-        image: 'image-fake',
-        name,
-        email,
-        whatsapp,
-        latitude,
-        longitude,
-        number,
-        city,
-        uf,
-        point_reference
-    });
-
-    const point_id = insertedIds[0];
-
-    const pointItens = itens.map((item_id: number) => {
-        return {
-            item_id,
-            point_id,
-        }
-    });
-
-    await trx('point_itens').insert(pointItens);
-
-    return response.json({ success: true });
-});
+routes.post('/points', pointsController.create);
 
 export default routes;
