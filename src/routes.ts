@@ -22,3 +22,7 @@ routes.get('/itens', itensController.index);
 routes.post('/points', pointsController.create);
 
 export default routes;
+
+//Melhorias:
+//Usar Service Pattern
+//Repository Pattern (Data Mapper)
