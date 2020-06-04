@@ -15,13 +15,16 @@ const itensController = new ItensCotroller();
 //Update - Atualizar registro
 //Delete ou Destroy - Deletar registro
 
-//Listando itens.
+//Listar vários itens.
 routes.get('/itens', itensController.index);
 
 //Listar um ponto específico.
 routes.get('/points/:id', pointsController.show);
 
-//Criando um ponto de coleta
+//Listar vários locais de coleta.
+routes.get('/points', pointsController.index);
+
+//Criar um ponto de coleta
 routes.post('/points', pointsController.create);
 
 export default routes;
