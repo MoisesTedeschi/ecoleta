@@ -18,6 +18,9 @@ const itensController = new ItensCotroller();
 //Listando itens.
 routes.get('/itens', itensController.index);
 
+//Listar um ponto específico.
+routes.get('/points/:id', pointsController.show);
+
 //Criando um ponto de coleta
 routes.post('/points', pointsController.create);
 
