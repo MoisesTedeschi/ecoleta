@@ -1,5 +1,5 @@
 import express from 'express';
-import knex from './database/connections';
+
 
 import PointsController from './controllers/PointsController';
 import ItensCotroller from './controllers/ItensController';
