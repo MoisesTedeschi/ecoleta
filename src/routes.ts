@@ -1,10 +1,13 @@
 import express from 'express';
-
+import multer from 'multer';
+import multerConfig from './config/multer';
 
 import PointsController from './controllers/PointsController';
 import ItensCotroller from './controllers/ItensController';
 
 const routes = express.Router();
+const upload = multer(multerConfig);
+
 const pointsController = new PointsController();
 const itensController = new ItensCotroller();
 
@@ -20,7 +23,9 @@ routes.get('/itens', itensController.index); //Listar vários itens.
 
 routes.get('/points', pointsController.index); //Listar pontos filtrados.
 routes.get('/points/:id', pointsController.show); //Listar um ponto específico.
-routes.post('/points', pointsController.create); //Criar um ponto de coleta
+
+
+routes.post('/points', upload.single('image'), pointsController.create); //Criar um ponto de coleta
 
 export default routes;
 
