@@ -59,5 +59,21 @@ O <b>"Ecoleta"</b> é uma solução simples para conectar empresas que coletam r
 O layout da aplicação e app podem ser encontrados no link: [Figma](<https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)>).
 
 
+### Melhorias
+
+- Controle de acesso de usuários;
+
+- Painel de administração;
+
+- Complemento de dados para endereço completo;
+
+- Melhoria na responsividade da página de cadastro de pontos de coleta;
+
+- Refinamento de código;
+
+- Documentação;
+
+- Testes.
+
 ### Agradecimentos
 Obrigado, [Rocketseat]( https://github.com/Rocketseat) pela iniciativa. O projeto foi um desafio, mas, ao mesmo tempo, incrível. Não estava nos meus planos participar, mas a elegância do design e o tema chamaram muito minha atenção. Parabéns por compartilher conhecimento.
