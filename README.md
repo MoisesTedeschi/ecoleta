@@ -19,7 +19,9 @@
     <img alt="Made by Moisés Tedeschi" src="https://img.shields.io/badge/Made%20by-MoisesTedeschi-brightgreen">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen"> 
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen">
+  </a> 
 </p>
 
 <p>O Projeto foi desenvolvido durante a <b> Next Level Week #01 [ NLW ]</b> oferecida pela <a href="https://rocketseat.com.br/">Rocketseat</a>. O tema foi focado e pensado com base na "Semana Mundial do Meio Ambiente".</p>
