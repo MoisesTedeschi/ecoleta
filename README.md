@@ -81,4 +81,6 @@ O layout da aplicação e app podem ser encontrados no link: [Figma](<https://ww
 - Testes.
 
 ### Agradecimentos
-Obrigado, [Rocketseat]( https://github.com/Rocketseat) pela iniciativa. O projeto foi um desafio, mas, ao mesmo tempo, incrível. Não estava nos meus planos participar, mas a elegância do design e o tema chamaram muito minha atenção. Parabéns por compartilher conhecimento.
+A [Rocketseat]( https://github.com/Rocketseat), obrigado pela iniciativa e oportunidade! 
+<br />
+O projeto foi um desafio, mas, ao mesmo tempo, incrível de fazer. Não estava nos meus planos participar, mas estou muito feliz por ter feito a escolha de aceitar o desafio. Mais uma vez, parabéns por compartilher conhecimento.
