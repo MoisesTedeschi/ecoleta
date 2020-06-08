@@ -14,17 +14,12 @@
   </a>
 </h2>
 
-<p>
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/MoisesTedeschi/ecoleta">
-
-  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/MoisesTedeschi/ecoleta">
-  	
-  <a href="https://www.linkedin.com/in/luizpedrosm/">  
-    <img alt="Made by Moisés Tedeschi" src="https://img.shields.io/badge/made%20by-MoisesTedeschi-brightgreen">
+<p>	
+  <a href="https://www.linkedin.com/in/moisestedeschi/">  
+    <img alt="Made by Moisés Tedeschi" src="https://img.shields.io/badge/Made%20by-MoisesTedeschi-brightgreen">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> 
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-brightgreen"> 
 </p>
 
 <p>O Projeto foi desenvolvido durante a <b> Next Level Week #01 [ NLW ]</b> oferecida pela <a href="https://rocketseat.com.br/">Rocketseat</a>. O tema foi focado e pensado com base na "Semana Mundial do Meio Ambiente".</p>
@@ -53,7 +48,12 @@ O <b>"Ecoleta"</b> é uma solução simples que conectar empresas que coletam re
 - [Insomnia](https://insomnia.rest)
 - [Expo](https://expo.io/)
 
-### Layout
+### Layout da aplicação
+
+<img width="100%" src=".github/mockup-aplication.png" alt="Ecoleta">
+
+<img width="100%" src=".github/cadastro-itens.png" alt="Ecoleta">
+
 O layout da aplicação e app podem ser encontrados no link: [Figma](<https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)>).
 
 
