@@ -24,7 +24,8 @@
   </a> 
 </p>
 
-<p>"ECOLETA"<br />Projeto desenvolvido durante a <b> Next Level Week #01 [ NLW ]</b> oferecida pela <a href="https://rocketseat.com.br/">Rocketseat</a>.
+## "ECOLETA"
+<p>Projeto desenvolvido durante a <b> Next Level Week #01 [ NLW ]</b> oferecida pela <a href="https://rocketseat.com.br/">Rocketseat</a>.
 
 ### Descrição
 <p><img src=".github/logo.svg"></p>
