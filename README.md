@@ -28,7 +28,7 @@
 
 ### Descrição
 <p><img src=".github/logo.svg"></p>
-O <b>"Ecoleta"</b> é uma solução simples que conectar empresas que coletam resíduos à pessoas interessadas em fazer descarte responsável do seu lixo. 
+O <b>"Ecoleta"</b> é uma solução simples para conectar empresas que coletam resíduos à pessoas interessadas em fazer descarte responsável do seu lixo. 
 
 ### Tecnologias
 
