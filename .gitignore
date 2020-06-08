@@ -1,5 +1,9 @@
 # Uploads
 uploads/*
+!uploads/.gitkeep
+
+#DB
+*.sqlite
 
 # Logs
 logs
