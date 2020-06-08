@@ -52,10 +52,10 @@ O <b>"Ecoleta"</b> é uma solução simples que conectar empresas que coletam re
 
 <img width="100%" src=".github/mockup-aplication.png" alt="Ecoleta">
 
-<img width="100%" src=".github/cadastro-itens.png" alt="Ecoleta">
+<img width="100%" src=".github/cadastro-pontos-coleta.png" alt="Ecoleta">
 
 O layout da aplicação e app podem ser encontrados no link: [Figma](<https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)>).
 
 
 ### Agradecimentos
-Obrigado, [Rocketseat] ( https://github.com/Rocketseat) pela iniciativa. O projeto foi um desafio, mas, ao mesmo tempo, incrível. Não estava nos meus planos participar, mas a elegância do design e o tema chamaram muito minha atenção. Parabéns por compartilher conhecimento.
+Obrigado, [Rocketseat]( https://github.com/Rocketseat) pela iniciativa. O projeto foi um desafio, mas, ao mesmo tempo, incrível. Não estava nos meus planos participar, mas a elegância do design e o tema chamaram muito minha atenção. Parabéns por compartilher conhecimento.
