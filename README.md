@@ -26,14 +26,13 @@
 
 <p>"ECOLETA"<br />Projeto desenvolvido durante a <b> Next Level Week #01 [ NLW ]</b> oferecida pela <a href="https://rocketseat.com.br/">Rocketseat</a>.
 
+### Descrição
+<p><img src=".github/logo.svg"></p>
+
 A aplicação é uma solução simples para conectar empresas que coletam resíduos à pessoas interessadas em fazer descarte responsável do seu lixo.
 
 O desafio de desenvolvimento da aplicação caiu na "Semana Mundial do Meio Ambiente" - Que tem o Dia Mundial do Meio Ambiente, comemorado no dia 5 de junho. A data foi instituída pela Organização das Nações Unidas (ONU), e tem como objetivo principal chamar a atenção de todas as esferas da população para os problemas ambientais e para a importância da preservação dos recursos naturais, que até então eram considerados, por muitos, inesgotáveis. Ou seja, o contexto de desenvolvimento do projeto estava super alinhado com um momento muito importante e de interesse de todos nós. 
 </p>
-
-### Descrição
-<p><img src=".github/logo.svg"></p>
-O <b>"Ecoleta"</b> é uma solução simples para conectar empresas que coletam resíduos à pessoas interessadas em fazer descarte responsável do seu lixo. 
 
 ### Tecnologias
 
